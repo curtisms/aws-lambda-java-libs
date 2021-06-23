@@ -12,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StdOutLogSinkTest {
 
+
     private final PrintStream originalOutPrintStream = System.out;
     private final ByteArrayOutputStream bos = new ByteArrayOutputStream();
     private final PrintStream capturedOutPrintStream = new PrintStream(bos);
